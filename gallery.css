@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.gallery-header{
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/gallery.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/*<!------ Services ------->*/
+
+.gallery{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.gallery h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.gallery p{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.gallery h2{
+    font-size: 28px;
+    font-weight: 600;
+    background-color: rgb(175, 10, 10);
+    box-shadow: 0 0 20px 0px rgba(215, 255, 125, 0.83);
+    color: #fffffe;
+    border-radius: 20px;
+}
+.row{
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.blue-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #080250;
+    padding: 5px 15px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #3d86fa;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.blue-btn:hover{
+    border: 1px solid #040946;
+    background: #84ebef;
+    border-radius: 20px 20px 20px 20px;
+    transform: 1s;
+    color: #010738;
+}
+.gallery-col{
+    flex-basis: 20%;
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 0.5%;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0px rgba(215, 255, 125, 0.83);
+    transition: 0.5s;
+}
+.gallery-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+@media(max-width: 700px){
+    .row {
+        flex-direction: column;
+    }
+    .gallery h1{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.gallery p{
+    font-size: 11px;
+}
+.gallery-header{
+    min-height: 25vh;
+}
+}
+

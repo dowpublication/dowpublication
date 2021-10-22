@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.packages-header{
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/packagesbanner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/*<!------ Services ------->*/
+
+.anthopackages{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.anthopackages h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.anthopackages p{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.anthopackages h2{
+    font-size: 28px;
+    font-weight: 600;
+    background-color: rgb(175, 10, 10);
+    box-shadow: 0 0 20px 0px rgba(215, 255, 125, 0.83);
+    color: #fffffe;
+    border-radius: 20px;
+}
+.row{
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.anthopackages-col{
+    flex-basis: 50%;
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 0.5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0px rgba(215, 255, 125, 0.83);
+    transition: 0.5s;
+}
+.anthopackages-col h3{
+    text-align: center;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 1px;
+    font-family: 'Oswald', sans-serif;
+}
+.anthopackhead1{
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 0;
+    padding: 15px auto;
+    color: #fff;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+}
+.anthopackhead2{
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 0;
+    padding: 15px auto;
+    color: #fff;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+}
+.anthopackhead3{
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 0;
+    padding: 15px auto;
+    color: #fff;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+}
+.anthopackhead4{
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 0;
+    padding: 15px auto;
+    color: #fff;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+}
+.anthopackages-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+@media(max-width: 700px){
+    .row {
+        flex-direction: column;
+    }
+   .anthopackages h1{
+    font-size: 20px;
+}
+    .anthopackages h2{
+    font-size: 16px;
+}
+    .anthopackages h3{
+    font-size: 10px;
+    margin-top: 10px;    
+    margin-bottom: 10px; 
+}
+.anthopackages p{
+    font-size: 11px;
+}
+    .anthopackhead1, .anthopackhead2, .anthopackhead3, .anthopackhead4{
+    font-size: 10px;
+    }
+.packages-header{
+    min-height: 25vh;    
+}

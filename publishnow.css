@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.publishing-header{
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/publishingbanner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.publishform h1{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    color: rgb(244, 82, 82);
+}
+.publish{
+    width: 100%;
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    }
+.publish input, .publish textarea{
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 17px;
+}
+.red-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid rgb(244, 82, 82);
+    padding: 5px 15px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: rgb(244, 82, 82);
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 23%;
+    margin-right: 20%;
+}
+.red-btn:hover{
+    border: 1px solid rgb(1, 0, 25);
+    background: rgb(1, 0, 25);
+    border-radius: 20px 20px 20px 20px;
+    transform: 1s;
+    color: white;
+}
+@media(max-width: 700px){
+.publishing-header{
+    min-height: 25vh;
+    }
+.publishform h1{
+    font-size: 20px;
+}
+.publish{
+    width: 80%;
+    text-align: justify;
+    margin-left: 8.5%;
+    
+    }
+.publish input, .publish textarea{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 17px;
+    font-size: 15px;
+}
+.red-btn{
+    font-size: 12px;
+    margin-left: 26%;
+    margin-right: 20%;
+}    
+}

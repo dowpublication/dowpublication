@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.packages-header{
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/packagesbanner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/*<!------ Services ------->*/
+
+.ebookpackages{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.ebookpackages h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.ebookpackages p{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.ebookpackages h2{
+    font-size: 28px;
+    font-weight: 600;
+    background-color: rgb(175, 10, 10);
+    box-shadow: 0 0 20px 0px rgba(215, 255, 125, 0.83);
+    color: #fffffe;
+    border-radius: 20px;
+}
+.row{
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.ebookpackages-col1{
+    flex-basis: 33.33%;
+    height: 270px;
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 0.5%;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0px rgb(175, 10, 10);
+    transition: 0.5s;
+    text-align: justify;
+}
+.ebookpackages-col1 h3{
+    text-align: center;
+}
+.addon{
+    margin-left: 25%;
+}
+.ebookpackages-col{
+    flex-basis: 33.33%;
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 0.5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0px rgba(110, 242, 206, 0.83);
+    transition: 0.5s;
+}
+.ebookpackages-col h3{
+    text-align: center;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    font-family: 'Oswald', sans-serif;
+}
+.ebookpackhead1{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 0;
+    padding: 15px auto;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #ebd20e;
+    font-family: 'EB Garamond', serif;
+}
+.ebookpackhead2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 5%;
+    padding: 15px auto;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #dc141c;
+    font-family: 'EB Garamond', serif;
+}
+.ebookpackhead3{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 0;
+    padding: 15px auto;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #1fbaba;
+    font-family: 'EB Garamond', serif;
+}
+.ebookpackages-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.54);
+}
+.ebookpackages-col1:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.54);
+}
+@media(max-width: 700px){
+    .row {
+        flex-direction: column;
+    }
+    .ebookpackages h1{
+    font-size: 20px;
+}
+    .ebookpackages h2{
+    font-size: 18px;
+}
+    .ebookpackages-col h3{
+    font-size: 15px;
+}
+.ebookpackages p{
+    font-size: 11px;
+}
+    .ebookpackhead1, .ebookpackhead2, .ebookpackhead3{
+    font-size: 18px;
+    }
+.addon{
+    font-size: 12px;
+}    
+.packages-header{
+    min-height: 25vh; 
+    }
+}
